@@ -8,7 +8,7 @@ load_dotenv()
 
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
-SYSTEM_PROMPT = """Você é um assistente inteligente do SI CRM, um sistema de gestão de relacionamento com clientes voltado para o mercado imobiliário da SI Realty Group.
+SYSTEM_PROMPT = """Você é um assistente inteligente do SI CRM, um sistema de gestão de relacionamento com clientes voltado para o mercado imobiliário.
 
 SOBRE O SISTEMA:
 O SI CRM possui 4 páginas principais:
